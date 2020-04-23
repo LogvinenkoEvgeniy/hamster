@@ -1,6 +1,8 @@
-.body{
-    margin: 0em;
+body{
+    padding: 0%;
+    margin: 0%;
 }
+
 .container{
     
     flex-direction: row;
@@ -11,7 +13,7 @@
     height: 100vh;
     position: relative;
     margin: 0;
-
+    
 }
 .forest{
     background-image: url(img/crop.jpg);
@@ -24,6 +26,7 @@
     align-items: center;
     z-index: 3;
     position: fixed; 
+    
         
 }
 .icons{
@@ -57,7 +60,6 @@
 .main{
     width: 100%;
     height: 100%;
-    display: flex;
     position: relative;
     background-color: white;
     margin-left: 200px;
@@ -84,16 +86,15 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
-    
-    
+        
 }
 
 .contant {
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .page{
-    width: 70%; 
+    width: 80%; 
     padding: 10px 100px;
     
     }
@@ -142,6 +143,190 @@ span{
     font-family: Dancing Script;
     color:black;
 }
+.photo {
+    margin-left:100px ;
+    
+}
+.denali{
+    height : 200px;
+    width : 400px;
+}
+.everest{
+    height : 200px;
+    width : 300px;
+}
+.goverla{
+    height : 200px;
+    width : 300px;
+}
+.elbrus{
+    height : 200px;
+    width : 400px;
+}
+.video{
+    margin-left: 100px;
+    width: 70%;
+    
+}
+iframe{
+    margin: 10px;
+    float: left;
+    width: 200px;
+    height:200px;
+}
+.portfolio{
+    width: 80%;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:grey;
+    margin-left: 100px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio p{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.portfolio .bold{
+    font-weight: bold;
+    color: black;
+    font-family: fantasy;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.portfolio h2{
+    color: black;
+    position: absolute;
+    top: -5px;
+    text-transform: uppercase;
+}
+.portfolio img{
+    width: 250px;
+    height: 200px;
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+.deskription {
+    width: 80%;
+    
+    display: flex;
+    margin-left: 100px;
+    
+}
+.desk {
+    width: 450px;
+    margin-top: 40px;
+    color: grey;
+}
+.desk i{
+    width: 30px;
+    height: 100px;
+    float: left;
+    padding: 20px 10px;
+    color: black;
+}
+.desk hr {
+    width: 20px;
+    float: left;
+
+}
+.desk h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+}
+.footer {
+    background-color:grey; 
+    color: white;  
+    width: 100%;
+    margin-left: 50px;
+    bottom: 0;
+    
+   
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;  
+    border-bottom: solid black 1px;
+    padding: 30px;
+    padding-bottom: 100px;
+    
+}
+
+.top h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+.top hr{
+    border-color: grey;
+    border-top:solid black 1px;
+    
+}
+.futured {
+    font-family: Dancing Script;
+    width: 300px;
+    display: block;
+      
+}
+.futured img{
+    float: left;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+    
+}
+.futured .line{
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    
+}
+.futured .date{
+    text-transform: uppercase;
+    font-family: serif;
+}
+.categories {
+    
+    width: 300px;
+    display: block;
+    
+}
+.categories p{
+    line-height: 0.5;
+}
+
+.facebook {
+    
+    width: 300px;
+}
+.facebook img{
+    width: 200px;
+    
+}
+.bottom {
+    text-align: center;
+    height: 200px;
+
+}
+.bottom img{
+    width: 100px;
+}
+
 @media (max-width: 900px){
     .menu{
         position: absolute;
@@ -158,6 +343,7 @@ span{
         align-items: stretch;
         width: 100%;
         height: 200px;
+        
     }
     .container{
         flex-direction: column;
@@ -169,17 +355,41 @@ span{
         height: 100%;
     }
     .contant{
-        margin-left: 0px;
+        margin-left: 10px;
     }
     .page{
         padding: 0px;
-        width: 100%;
+        width: 70%;
+        margin-left: 0;
     }
     .main{
         margin-left: 0;
     }
     .icons{
         width: 10%;
+    }
+    .photo {
+        margin-left: 0 ;
+        
+    }
+    .portfolio{
+        margin-left: 0;
+        
+    }
+    .video{
+        margin-left: 0;
+        
+    }
+    .deskription {
+        display: block;
+        margin-left: 0;
+        overflow: hidden;
+    }
+    .footer{
+        margin-left: 0;
+    }
+    .top{
+        display: block;
     }
 
 }
